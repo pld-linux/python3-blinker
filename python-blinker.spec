@@ -11,7 +11,7 @@ Summary(pl.UTF-8):	Szybkie, proste przesyłanie sygnałów pomiędzy obiektami
 # Name must match the python module/package name (as in 'import' statement)
 Name:		python-%{module}
 Version:	1.3
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/b/%{module}/%{module}-%{version}.tar.gz
