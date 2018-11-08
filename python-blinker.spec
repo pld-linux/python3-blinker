@@ -10,12 +10,12 @@ Summary:	Fast, simple object-to-object and broadcast signaling
 Summary(pl.UTF-8):	Szybkie, proste przesyłanie sygnałów pomiędzy obiektami
 # Name must match the python module/package name (as in 'import' statement)
 Name:		python-%{module}
-Version:	1.3
-Release:	7
+Version:	1.4
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/b/%{module}/%{module}-%{version}.tar.gz
-# Source0-md5:	66e9688f2d287593a0e698cd8a5fbc57
+# Source0-md5:	8b3722381f83c2813c52de3016b68d33
 URL:		http://pythonhosted.org/blinker/
 BuildRequires:	rpm-pythonprov
 # if py_postclean is used
@@ -113,7 +113,7 @@ rm -rf $RPM_BUILD_ROOT
 %if %{with python2}
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS CHANGES README LICENSE
+%doc AUTHORS CHANGES README.md LICENSE
 %dir %{py_sitescriptdir}/%{module}
 %{py_sitescriptdir}/%{module}/*.py[co]
 %if "%{py_ver}" > "2.4"
@@ -124,7 +124,7 @@ rm -rf $RPM_BUILD_ROOT
 %if %{with python3}
 %files -n python3-%{module}
 %defattr(644,root,root,755)
-%doc AUTHORS CHANGES README LICENSE
+%doc AUTHORS CHANGES README.md LICENSE
 %{py3_sitescriptdir}/%{module}
 %{py3_sitescriptdir}/%{module}-%{version}-py*.egg-info
 %endif
