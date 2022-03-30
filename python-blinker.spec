@@ -10,7 +10,7 @@ Summary:	Fast, simple object-to-object and broadcast signaling
 Summary(pl.UTF-8):	Szybkie, proste przesyłanie sygnałów pomiędzy obiektami
 Name:		python-%{module}
 Version:	1.4
-Release:	6
+Release:	7
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/blinker/
