@@ -11,7 +11,7 @@ Summary(pl.UTF-8):	Szybkie, proste przesyłanie sygnałów pomiędzy obiektami
 Name:		python-%{module}
 # keep 1.5 here for python2 support
 Version:	1.5
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/blinker/
